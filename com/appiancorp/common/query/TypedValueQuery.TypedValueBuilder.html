@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10};
+var methods = {"i0":10,"i1":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -74,7 +74,7 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li><a href="#nested.class.summary">Nested</a>&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.com.appiancorp.common.query.Query.Builder">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
@@ -218,21 +218,6 @@ extends <a href="../../../../com/appiancorp/common/query/Query.Builder.html" tit
 </ul>
 </li>
 </ul>
-<!-- =========== FIELD SUMMARY =========== -->
-<ul class="blockList">
-<li class="blockList"><a name="field.summary">
-<!--   -->
-</a>
-<h3>Field Summary</h3>
-<ul class="blockList">
-<li class="blockList"><a name="fields.inherited.from.class.com.appiancorp.common.query.Query.Builder">
-<!--   -->
-</a>
-<h3>Fields inherited from class&nbsp;com.appiancorp.common.query.<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a></h3>
-<code><a href="../../../../com/appiancorp/common/query/Query.Builder.html#supportsFieldReferences">supportsFieldReferences</a></code></li>
-</ul>
-</li>
-</ul>
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
 <ul class="blockList">
 <li class="blockList"><a name="constructor.summary">
@@ -285,23 +270,13 @@ extends <a href="../../../../com/appiancorp/common/query/Query.Builder.html" tit
 <div class="block">Returns a <a href="../../../../com/appiancorp/common/query/TypedValueLogicalExpression.html" title="class in com.appiancorp.common.query"><code>TypedValueLogicalExpression</code></a> instance</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
-<td class="colFirst"><code>protected <a href="../../../../com/appiancorp/common/query/TypedValueQuery.html" title="class in com.appiancorp.common.query">TypedValueQuery</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/TypedValueQuery.TypedValueBuilder.html#newQuery-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-boolean-boolean-">newQuery</a></span>(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
-        <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
-        <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo,
-        boolean&nbsp;fetchTotalCount,
-        boolean&nbsp;supportsFieldReferences)</code>
-<div class="block">Returns a <a href="../../../../com/appiancorp/common/query/TypedValueQuery.html" title="class in com.appiancorp.common.query"><code>TypedValueQuery</code></a> instance</div>
-</td>
-</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.com.appiancorp.common.query.Query.Builder">
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;com.appiancorp.common.query.<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a></h3>
-<code><a href="../../../../com/appiancorp/common/query/Query.Builder.html#aggregate-com.appiancorp.common.query.AggregationColumn...-">aggregate</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#aggregate-java.util.List-">aggregate</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#and-com.appiancorp.common.query.Criteria...-">and</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#criteria-com.appiancorp.common.query.Criteria-">criteria</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#fetchTotalCount-boolean-">fetchTotalCount</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.Column...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.ColumnAlias...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-java.lang.String...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#newQuerySimplified-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-">newQuerySimplified</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#or-com.appiancorp.common.query.Criteria...-">or</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-int-int-">page</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-com.appiancorp.suiteapi.common.paging.PagingInfo-">page</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Aggregation-">project</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Selection-">project</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.Collection-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.Column...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.ColumnAlias...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.List-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.lang.String...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#selectFirst-java.lang.String-">selectFirst</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-java.util.List-">sortBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-com.appiancorp.suiteapi.common.paging.SortInfo...-">sortBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#supportsFieldReferences-boolean-">supportsFieldReferences</a></code></li>
+<code><a href="../../../../com/appiancorp/common/query/Query.Builder.html#aggregate-com.appiancorp.common.query.AggregationColumn...-">aggregate</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#aggregate-java.util.List-">aggregate</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#and-com.appiancorp.common.query.Criteria...-">and</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#criteria-com.appiancorp.common.query.Criteria-">criteria</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.Column...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.ColumnAlias...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-java.lang.String...-">groupBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#newQuerySimplified-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-">newQuerySimplified</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#or-com.appiancorp.common.query.Criteria...-">or</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-int-int-">page</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-com.appiancorp.suiteapi.common.paging.PagingInfo-">page</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Aggregation-">project</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Selection-">project</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.Collection-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.Column...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.ColumnAlias...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.List-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.lang.String...-">select</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#selectFirst-java.lang.String-">selectFirst</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-java.util.List-">sortBy</a>, <a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-com.appiancorp.suiteapi.common.paging.SortInfo...-">sortBy</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -372,33 +347,6 @@ extends <a href="../../../../com/appiancorp/common/query/Query.Builder.html" tit
 <dd><code><a href="../../../../com/appiancorp/common/query/Query.Builder.html#build--">build</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/suiteapi/type/TypedValue.html" title="class in com.appiancorp.suiteapi.type">TypedValue</a>&gt;</code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>a <code>Query<T></code> instance.</dd>
-</dl>
-</li>
-</ul>
-<a name="newQuery-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-boolean-boolean-">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>newQuery</h4>
-<pre>protected&nbsp;<a href="../../../../com/appiancorp/common/query/TypedValueQuery.html" title="class in com.appiancorp.common.query">TypedValueQuery</a>&nbsp;newQuery(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
-                                   <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
-                                   <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo,
-                                   boolean&nbsp;fetchTotalCount,
-                                   boolean&nbsp;supportsFieldReferences)</pre>
-<div class="block">Returns a <a href="../../../../com/appiancorp/common/query/TypedValueQuery.html" title="class in com.appiancorp.common.query"><code>TypedValueQuery</code></a> instance</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../../com/appiancorp/common/query/Query.Builder.html#newQuery-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-boolean-boolean-">newQuery</a></code>&nbsp;in class&nbsp;<code><a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/suiteapi/type/TypedValue.html" title="class in com.appiancorp.suiteapi.type">TypedValue</a>&gt;</code></dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>projection</code> - a <a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query"><code>Projection</code></a></dd>
-<dd><code>criteria</code> - a @<a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query"><code>Criteria</code></a></dd>
-<dd><code>pagingInfo</code> - a <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging"><code>PagingInfo</code></a></dd>
-<dd><code>supportsFieldReferences</code> - a boolean indicating whether the query supports the usage of record
-                                field references to represent record field information</dd>
-<dd><code>fetchTotalCount</code> - a boolean indicating if the query should fetch the total count</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>a <a href="../../../../com/appiancorp/common/query/TypedValueQuery.html" title="class in com.appiancorp.common.query"><code>TypedValueQuery</code></a> instance</dd>
 </dl>
 </li>
 </ul>
@@ -476,7 +424,7 @@ extends <a href="../../../../com/appiancorp/common/query/Query.Builder.html" tit
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li><a href="#nested.class.summary">Nested</a>&nbsp;|&nbsp;</li>
-<li><a href="#fields.inherited.from.class.com.appiancorp.common.query.Query.Builder">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>

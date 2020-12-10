@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":6,"i10":6,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":6,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -74,13 +74,13 @@ var activeTableTab = "activeTableTab";
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
@@ -150,25 +150,6 @@ implements <a href="../../../../com/appiancorp/common/query/QueryBuilder.html" t
 <h3>Nested classes/interfaces inherited from interface&nbsp;com.appiancorp.common.query.<a href="../../../../com/appiancorp/common/query/QueryBuilder.html" title="interface in com.appiancorp.common.query">QueryBuilder</a></h3>
 <code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Aggregating.html" title="interface in com.appiancorp.common.query">QueryBuilder.Aggregating</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Aggregating.html" title="type parameter in QueryBuilder.Aggregating">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="type parameter in QueryBuilder.Filtering">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.FilteringCriteria.html" title="interface in com.appiancorp.common.query">QueryBuilder.FilteringCriteria</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.FilteringCriteria.html" title="type parameter in QueryBuilder.FilteringCriteria">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.Grouping.html" title="interface in com.appiancorp.common.query">QueryBuilder.Grouping</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Grouping.html" title="type parameter in QueryBuilder.Grouping">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.Paging.html" title="interface in com.appiancorp.common.query">QueryBuilder.Paging</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Paging.html" title="type parameter in QueryBuilder.Paging">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.Selecting.html" title="interface in com.appiancorp.common.query">QueryBuilder.Selecting</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Selecting.html" title="type parameter in QueryBuilder.Selecting">T</a>&gt;, <a href="../../../../com/appiancorp/common/query/QueryBuilder.Sorting.html" title="interface in com.appiancorp.common.query">QueryBuilder.Sorting</a>&lt;<a href="../../../../com/appiancorp/common/query/QueryBuilder.Sorting.html" title="type parameter in QueryBuilder.Sorting">T</a>&gt;</code></li>
 </ul>
-</li>
-</ul>
-<!-- =========== FIELD SUMMARY =========== -->
-<ul class="blockList">
-<li class="blockList"><a name="field.summary">
-<!--   -->
-</a>
-<h3>Field Summary</h3>
-<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
-<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
-<tr>
-<th class="colFirst" scope="col">Modifier and Type</th>
-<th class="colLast" scope="col">Field and Description</th>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>protected boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#supportsFieldReferences">supportsFieldReferences</a></span></code>&nbsp;</td>
-</tr>
-</table>
 </li>
 </ul>
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
@@ -241,130 +222,112 @@ implements <a href="../../../../com/appiancorp/common/query/QueryBuilder.html" t
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#fetchTotalCount-boolean-">fetchTotalCount</a></span>(boolean&nbsp;fetchTotalCount)</code>&nbsp;</td>
-</tr>
-<tr id="i6" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Aggregating.html" title="interface in com.appiancorp.common.query">QueryBuilder.Aggregating</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.Column...-">groupBy</a></span>(<a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>...&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Grouping<T></code></div>
 </td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Aggregating.html" title="interface in com.appiancorp.common.query">QueryBuilder.Aggregating</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-com.appiancorp.common.query.ColumnAlias...-">groupBy</a></span>(<a href="../../../../com/appiancorp/common/query/ColumnAlias.html" title="class in com.appiancorp.common.query">ColumnAlias</a>...&nbsp;alias)</code>
 <div class="block">Obtains the set of operations allowed after <code>Grouping<T></code></div>
 </td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Aggregating.html" title="interface in com.appiancorp.common.query">QueryBuilder.Aggregating</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#groupBy-java.lang.String...-">groupBy</a></span>(java.lang.String...&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Grouping<T></code></div>
 </td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>protected abstract <a href="../../../../com/appiancorp/common/query/LogicalExpression.html" title="class in com.appiancorp.common.query">LogicalExpression</a>&lt;?&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#newLogicalOperation-com.appiancorp.common.query.LogicalOperator-java.util.List-">newLogicalOperation</a></span>(<a href="../../../../com/appiancorp/common/query/LogicalOperator.html" title="enum in com.appiancorp.common.query">LogicalOperator</a>&nbsp;lo,
                    java.util.List&lt;<a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&gt;&nbsp;conditions)</code>
 <div class="block">Returns a <code>LogicalExpression</code> instance</div>
 </td>
 </tr>
-<tr id="i10" class="altColor">
-<td class="colFirst"><code>protected abstract <a href="../../../../com/appiancorp/common/query/Query.html" title="class in com.appiancorp.common.query">Query</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#newQuery-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-boolean-boolean-">newQuery</a></span>(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
-        <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
-        <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo,
-        boolean&nbsp;fetchTotalCount,
-        boolean&nbsp;supportsFieldReferences)</code>
-<div class="block">Returns a <code>Query</code> instance</div>
-</td>
-</tr>
-<tr id="i11" class="rowColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>protected <a href="../../../../com/appiancorp/common/query/Query.html" title="class in com.appiancorp.common.query">Query</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#newQuerySimplified-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-">newQuerySimplified</a></span>(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
                   <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
                   <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo)</code>&nbsp;</td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Grouping.html" title="interface in com.appiancorp.common.query">QueryBuilder.Grouping</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#or-com.appiancorp.common.query.Criteria...-">or</a></span>(<a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>...&nbsp;criteria)</code>
 <div class="block">Obtains the set of operations allowed after <code>FilteringCriteria<T></code></div>
 </td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Sorting.html" title="interface in com.appiancorp.common.query">QueryBuilder.Sorting</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-int-int-">page</a></span>(int&nbsp;startIndex,
     int&nbsp;batchSize)</code>
 <div class="block">Obtains the set of operations allowed after <code>Paging<T></code></div>
 </td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.html" title="interface in com.appiancorp.common.query">QueryBuilder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#page-com.appiancorp.suiteapi.common.paging.PagingInfo-">page</a></span>(<a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo)</code>
 <div class="block">Defines query's <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging"><code>PagingInfo</code></a></div>
 </td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Grouping.html" title="interface in com.appiancorp.common.query">QueryBuilder.Grouping</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Aggregation-">project</a></span>(<a href="../../../../com/appiancorp/common/query/Aggregation.html" title="class in com.appiancorp.common.query">Aggregation</a>&nbsp;a)</code>
 <div class="block">Obtains the set of operations allowed after <code>Aggregating<T></code></div>
 </td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#project-com.appiancorp.common.query.Selection-">project</a></span>(<a href="../../../../com/appiancorp/common/query/Selection.html" title="class in com.appiancorp.common.query">Selection</a>&nbsp;s)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.Collection-">select</a></span>(java.util.Collection&lt;java.lang.String&gt;&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.Column...-">select</a></span>(<a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>...&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-com.appiancorp.common.query.ColumnAlias...-">select</a></span>(<a href="../../../../com/appiancorp/common/query/ColumnAlias.html" title="class in com.appiancorp.common.query">ColumnAlias</a>...&nbsp;alias)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i18" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.util.List-">select</a></span>(java.util.List&lt;<a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#select-java.lang.String...-">select</a></span>(java.lang.String...&nbsp;c)</code>
 <div class="block">Obtains the set of operations allowed after <code>Selecting<T></code></div>
 </td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.Filtering.html" title="interface in com.appiancorp.common.query">QueryBuilder.Filtering</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#selectFirst-java.lang.String-">selectFirst</a></span>(java.lang.String&nbsp;column)</code>&nbsp;</td>
 </tr>
-<tr id="i23" class="rowColor">
+<tr id="i21" class="rowColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.html" title="interface in com.appiancorp.common.query">QueryBuilder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-java.util.List-">sortBy</a></span>(java.util.List&lt;<a href="../../../../com/appiancorp/suiteapi/common/paging/SortInfo.html" title="class in com.appiancorp.suiteapi.common.paging">SortInfo</a>&gt;&nbsp;s)</code>
 <div class="block">Defines the query's sorting information</div>
 </td>
 </tr>
-<tr id="i24" class="altColor">
+<tr id="i22" class="altColor">
 <td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/QueryBuilder.html" title="interface in com.appiancorp.common.query">QueryBuilder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#sortBy-com.appiancorp.suiteapi.common.paging.SortInfo...-">sortBy</a></span>(<a href="../../../../com/appiancorp/suiteapi/common/paging/SortInfo.html" title="class in com.appiancorp.suiteapi.common.paging">SortInfo</a>...&nbsp;s)</code>
 <div class="block">Defines the query's sorting information</div>
 </td>
-</tr>
-<tr id="i25" class="rowColor">
-<td class="colFirst"><code><a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/appiancorp/common/query/Query.Builder.html#supportsFieldReferences-boolean-">supportsFieldReferences</a></span>(boolean&nbsp;supportsFieldReferences)</code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -382,23 +345,6 @@ implements <a href="../../../../com/appiancorp/common/query/QueryBuilder.html" t
 <div class="details">
 <ul class="blockList">
 <li class="blockList">
-<!-- ============ FIELD DETAIL =========== -->
-<ul class="blockList">
-<li class="blockList"><a name="field.detail">
-<!--   -->
-</a>
-<h3>Field Detail</h3>
-<a name="supportsFieldReferences">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
-<h4>supportsFieldReferences</h4>
-<pre>protected&nbsp;boolean supportsFieldReferences</pre>
-</li>
-</ul>
-</li>
-</ul>
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
 <ul class="blockList">
 <li class="blockList"><a name="constructor.detail">
@@ -446,49 +392,6 @@ implements <a href="../../../../com/appiancorp/common/query/QueryBuilder.html" t
 <pre>protected final&nbsp;<a href="../../../../com/appiancorp/common/query/Query.html" title="class in com.appiancorp.common.query">Query</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;&nbsp;newQuerySimplified(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
                                             <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
                                             <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo)</pre>
-</li>
-</ul>
-<a name="supportsFieldReferences-boolean-">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>supportsFieldReferences</h4>
-<pre>public&nbsp;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;&nbsp;supportsFieldReferences(boolean&nbsp;supportsFieldReferences)</pre>
-</li>
-</ul>
-<a name="fetchTotalCount-boolean-">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>fetchTotalCount</h4>
-<pre>public&nbsp;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="class in com.appiancorp.common.query">Query.Builder</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;&nbsp;fetchTotalCount(boolean&nbsp;fetchTotalCount)</pre>
-</li>
-</ul>
-<a name="newQuery-com.appiancorp.common.query.Projection-com.appiancorp.common.query.Criteria-com.appiancorp.suiteapi.common.paging.PagingInfo-boolean-boolean-">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>newQuery</h4>
-<pre>protected abstract&nbsp;<a href="../../../../com/appiancorp/common/query/Query.html" title="class in com.appiancorp.common.query">Query</a>&lt;<a href="../../../../com/appiancorp/common/query/Query.Builder.html" title="type parameter in Query.Builder">T</a>&gt;&nbsp;newQuery(<a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query">Projection</a>&lt;? extends <a href="../../../../com/appiancorp/common/query/Column.html" title="class in com.appiancorp.common.query">Column</a>&gt;&nbsp;projection,
-                                     <a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query">Criteria</a>&nbsp;criteria,
-                                     <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging">PagingInfo</a>&nbsp;pagingInfo,
-                                     boolean&nbsp;fetchTotalCount,
-                                     boolean&nbsp;supportsFieldReferences)</pre>
-<div class="block">Returns a <code>Query</code> instance</div>
-<dl>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>projection</code> - a <a href="../../../../com/appiancorp/common/query/Projection.html" title="interface in com.appiancorp.common.query"><code>Projection</code></a></dd>
-<dd><code>criteria</code> - a @<a href="../../../../com/appiancorp/common/query/Criteria.html" title="interface in com.appiancorp.common.query"><code>Criteria</code></a></dd>
-<dd><code>pagingInfo</code> - a <a href="../../../../com/appiancorp/suiteapi/common/paging/PagingInfo.html" title="class in com.appiancorp.suiteapi.common.paging"><code>PagingInfo</code></a></dd>
-<dd><code>fetchTotalCount</code> - a boolean indicating if the query should fetch the total count</dd>
-<dd><code>supportsFieldReferences</code> - a boolean indicating whether the query supports the usage of record
-                                field references to represent record field information</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>a <code>Query</code> instance</dd>
-</dl>
 </li>
 </ul>
 <a name="select-java.lang.String...-">
@@ -959,13 +862,13 @@ implements <a href="../../../../com/appiancorp/common/query/QueryBuilder.html" t
 <ul class="subNavList">
 <li>Summary:&nbsp;</li>
 <li>Nested&nbsp;|&nbsp;</li>
-<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">Method</a></li>
 </ul>
 <ul class="subNavList">
 <li>Detail:&nbsp;</li>
-<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">Method</a></li>
 </ul>
